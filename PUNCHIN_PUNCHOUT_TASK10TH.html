@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE ATTENDANCE APP</title>
+    <script src="./JAVASCRIPT/TASK1JS.js"></script>
+    <link rel="stylesheet" href="./CSS/TASK1CSS.css"> 
+</head>
+<body onload="main_function()">
+    <div id="time_div">
+        <p>
+            PUNCHIN TIME :- 11:00 am TO 11:15 am <br><br>
+            PUNCHOUT TIME :- 05:00 pm TO  05:15 pm
+        </p>
+    </div>
+    <u style="color: rgb(223, 235, 138);"><h1 class="heading">WELCOME TO ONLINE PUNCHING MACHINE</h1></u>
+
+    <div id="timein_btn">
+    <button type="submit" id="timein"  disabled onclick="timein_fn_2()">LOGIN TIME</button>
+    </div>
+
+
+    <div id="timeout_btn">
+    <button type="submit" id="timeout" disabled onclick="timeout_fn_2()">LOGOUT TIME</button>
+    <div id="show_summary"></div>
+    </div>
+        <div id="finalmsg"  style="display: none;">
+           <p id="msgone">CheckIn Time :- <br><br><br>
+                          CheckOut Time :- <br><br><br>
+                          Total Time Spend :-  
+           </p>
+           <div>
+            <span id="morning_time"></span>
+            <span id="evening_time"></span>
+            <span id="total_time">  </span>
+        </div>
+    </div>
+
+    
+    <input type="time" id="user_value" onchange="user_time()">
+    <div class="ampm">
+        <span id="ampm_display">AM</span>
+    </div>
+    <span id="msg">SELECT YOUR PUNCHIN TIME</span>
+</body>
+</html>
