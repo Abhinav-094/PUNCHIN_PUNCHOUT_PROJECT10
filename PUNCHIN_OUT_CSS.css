@@ -1,0 +1,125 @@
+body
+{
+    background-color: rgb(50, 98, 140);
+}
+.heading
+{
+    color: red;
+    width: 480px;
+    margin-left: 550px;
+    margin-top: -40px;
+}
+#timein_btn
+{
+    border: solid white 8px;
+    width: 120px;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+#timein
+{
+    width:100px;
+    height: 50px;
+    font-size: 20px;
+}
+#timeout_btn
+{
+    border: solid white 8px;
+    width: 120px;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left:750px;
+    margin-top: -107px;
+}
+#timeout
+{
+    width:100px;
+    height: 50px;
+    font-size: 20px;
+}
+#time_div
+{
+    border: white solid 2px;
+    width: 330px;
+    padding-left: 20px;
+    color: rgb(205, 226, 43);
+    position: relative;
+    top: 170px;
+    left: 550px;
+}
+#show_summary
+{
+    margin-top: 100px;
+    margin-left: -150px;
+}
+.ampm
+{
+    margin-left:650px;
+    margin-top:-150px;
+    position: fixed;
+    top:50px;
+}
+  #msg
+  {
+    margin-left: 50px;
+  }
+  #morning_time
+        {
+            color: rgb(60, 255, 0);
+            position:fixed;
+            top: 480px;
+            left: 750px;
+            font-size: 20px;
+        }
+        #msgone
+        {
+            margin-left:10px;
+            width: 180px;
+            font-size: 20px;
+        }
+        #finalmsg
+        {
+            border: solid rgb(0, 26, 128) 2px;
+            width: 355px;
+            height: 200px;
+            margin-left: 550px;
+            margin-top: 20px;
+        }
+       
+        #total_time
+        {
+            position: relative;
+            left: 150px;
+        }
+        #evening_time
+        {
+            position: relative;
+            top: -110px;
+            left: 192px;
+            color: rgb(60, 255, 0);
+            font-size: 20px;
+        }
+        #total_time
+        {
+            position: relative;
+            top: -42px;
+            left: 110px;
+            color: rgb(60, 255, 0);
+            font-size: 20px;
+        }
+        #user_value
+        {
+            position: fixed;
+            left: 557px;
+            top: 290px;
+        }
+        #msg
+        {
+            position: fixed;
+            left: 657px;
+            top: 290px;
+        }
